@@ -293,7 +293,7 @@ Tiddler
 p100
 (dp101
 g21
-VThe interior of the mansion is old and crumbling, but is decorated for a party. While looking around, you bump into what seems to be the butler. You glance at the butler and then around the room once more, you notice that the room is devoid of people other than you and the butler.\u000a[[Say sorry and walk away and search for more people]]\u000a[[Say sorry and try to ask if you are here early]]
+VThe interior of the mansion is old and crumbling, but is decorated for a party. While looking around, you bump into what seems to be the butler. You glance at the butler and then around the room once more, you notice that the room is devoid of people other than you and the butler.\u000a[[Say sorry and walk away and search for more people]]\u000a[[Say sorry and ask if you are here early]]
 p102
 sg23
 VGo inside
@@ -304,8 +304,8 @@ g26
 I3
 I11
 I13
-I27
-I6
+I52
+I37
 I2
 I71
 I1
@@ -343,7 +343,7 @@ Tiddler
 p115
 (dp116
 g21
-VBefore you can look around, the butler stops you.\u000a[[Say sorry and walk away and search for more people]]\u000a[[Say sorry and try to ask if you are here early]]
+VBefore you can look around, the butler stops you.\u000a[[Say sorry and walk away and search for more people]]\u000a[[Say sorry and ask if you are here early]]
 p117
 sg23
 VLook around
@@ -354,8 +354,8 @@ g26
 I3
 I11
 I13
-I30
-I18
+I52
+I52
 I2
 I71
 I1
@@ -543,7 +543,7 @@ Tiddler
 p175
 (dp176
 g21
-VYour fear alerts the creature to your position. The creature climbs into your house through your window. Scared, your hit the creature with the frying pan. It does nothing. Moving slowly, the creature grabs your arms, shoves you up against a wall, and whispers with its raspy voice, you should have gone to the party.\u000a[[Start over]]
+VYour fear alerts the creature to your position. The creature climbs into your house through your window. Scared, you hit the creature with the frying pan. It does nothing. Moving slowly, the creature grabs your arms, shoves you up against a wall, and whispers with its raspy voice, you should have gone to the party.\u000a[[Start over]]
 p177
 sg23
 VGet scared and grab a frying pan
@@ -554,8 +554,8 @@ g26
 I3
 I11
 I13
-I41
-I51
+I58
+I48
 I2
 I71
 I1
@@ -582,7 +582,7 @@ tp186
 Rp187
 sbsa(dp188
 g14
-I01
+I00
 sg15
 (lp189
 F407.0
@@ -593,7 +593,7 @@ Tiddler
 p190
 (dp191
 g21
-VYou find no one but a monster trapped in a cage.
+VYou find no one but a monster trapped in a cage. The monster looks at you with the biggest and saddest eys you have ever seen.\u000a[[Feel sorry for the monster and open the cage]]\u000a[[Be thankful that the monster is stuck in a cage]]
 p192
 sg23
 VSay sorry and walk away and search for more people
@@ -604,8 +604,8 @@ g26
 I3
 I11
 I13
-I47
-I1
+I51
+I55
 I2
 I71
 I1
@@ -635,56 +635,19 @@ g14
 I00
 sg15
 (lp204
-F407.0
-aF151.0
+F210.0
+aF575.0
 asg17
 (itiddlywiki
 Tiddler
 p205
 (dp206
 g21
-V
+VGood Job, you lost.\u000a[[Start]]
 p207
 sg23
-VSay sorry and try to ask if you are here early
-p208
-sg25
-g26
-((I2020
-I3
-I11
-I13
-I27
-I10
-I2
-I71
-I1
-tp209
-(dp210
-tp211
-Rp212
-sg31
-(lp213
-sg33
-g212
-sbsa(dp214
-g14
-I00
-sg15
-(lp215
-F206.0
-aF583.0
-asg17
-(itiddlywiki
-Tiddler
-p216
-(dp217
-g21
-VGood Job, you lost.\u000a[[Start]]
-p218
-sg23
 VStart over
-p219
+p208
 sg25
 g26
 ((I2020
@@ -696,12 +659,12 @@ I16
 I2
 I71
 I1
-tp220
-(dp221
-tp222
-Rp223
+tp209
+(dp210
+tp211
+Rp212
 sg31
-(lp224
+(lp213
 sg33
 g26
 ((I2020
@@ -713,14 +676,209 @@ I13
 I2
 I71
 I1
-tp225
-(dp226
-tp227
-Rp228
+tp214
+(dp215
+tp216
+Rp217
+sbsa(dp218
+g14
+I00
+sg15
+(lp219
+F537.0
+aF14.0
+asg17
+(itiddlywiki
+Tiddler
+p220
+(dp221
+g21
+V
+p222
+sg23
+VBe thankful that the monster is stuck in a cage
+p223
+sg25
+g26
+((I2020
+I3
+I11
+I13
+I51
+I59
+I2
+I71
+I1
+tp224
+(dp225
+tp226
+Rp227
+sg31
+(lp228
+sg33
+g227
+sbsa(dp229
+g14
+I00
+sg15
+(lp230
+F538.0
+aF151.0
+asg17
+(itiddlywiki
+Tiddler
+p231
+(dp232
+g21
+g222
+sg23
+VFeel sorry for the monster and open the cage
+p233
+sg25
+g26
+((I2020
+I3
+I11
+I13
+I51
+I59
+I2
+I71
+I1
+tp234
+(dp235
+tp236
+Rp237
+sg31
+(lp238
+sg33
+g237
+sbsa(dp239
+g14
+I00
+sg15
+(lp240
+F403.0
+aF149.0
+asg17
+(itiddlywiki
+Tiddler
+p241
+(dp242
+g21
+VThe butler looks over his list and says no. Confused, you ask if there was anyone else invited. The butler looks over his list and says no.\u000a[[Get into your car and run away]]\u000a[[Run into the next room and catch your breath]]
+p243
+sg23
+VSay sorry and ask if you are here early
+p244
+sg25
+g26
+((I2020
+I3
+I11
+I13
+I57
+I54
+I2
+I71
+I1
+tp245
+(dp246
+tp247
+Rp248
+sg31
+(lp249
+sg33
+g26
+((I2020
+I3
+I11
+I13
+I52
+I40
+I2
+I71
+I1
+tp250
+(dp251
+tp252
+Rp253
+sbsa(dp254
+g14
+I01
+sg15
+(lp255
+F403.0
+aF287.0
+asg17
+(itiddlywiki
+Tiddler
+p256
+(dp257
+g21
+g222
+sg23
+VGet into your car and run away
+p258
+sg25
+g26
+((I2020
+I3
+I11
+I13
+I58
+I0
+I2
+I71
+I1
+tp259
+(dp260
+tp261
+Rp262
+sg31
+(lp263
+sg33
+g262
+sbsa(dp264
+g14
+I00
+sg15
+(lp265
+F539.0
+aF287.0
+asg17
+(itiddlywiki
+Tiddler
+p266
+(dp267
+g21
+g222
+sg23
+VRun into the next room and catch your breath
+p268
+sg25
+g26
+((I2020
+I3
+I11
+I13
+I58
+I0
+I2
+I71
+I1
+tp269
+(dp270
+tp271
+Rp272
+sg31
+(lp273
+sg33
+g272
 sbsasS'scale'
-p229
+p274
 F1.0
 sS'snapping'
-p230
+p275
 I00
 ss.
